@@ -15,10 +15,10 @@ class LoanList extends Component {
     constructor(props) {
        super(props)
     }
-    // componentWillMount() {
-    //   this.props.getLoanList().then(response =>{
-    //       console.log("response");
-    //   });
+    // componentDidMount() {
+
+    //   const data = this.props.getLoanList();
+    //   return data;
     // }
     
     render() {

@@ -59,7 +59,7 @@ const LoanListChild = props => {
             <Paper className='alineaTable'>
                 <Table id="table">
                     <TableHead>
-                        <TableRow>
+                        <TableRow id="TableRow">
                             { colArr.map((elm ,idx) =>{
                                return <TableCell key={idx} align="left">{elm}</TableCell>
                             })}

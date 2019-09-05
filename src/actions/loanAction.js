@@ -6,6 +6,7 @@ export const FETCH_LOANS_FAILURE = "FETCH_LOANS_FAILURE";
 
 export const getLoanList = () => {
     const request = doActionGet({ url: 'loans.json' });
+    console.log("inside actions", request);
     return {
         type: FETCH_LOANS,
         payload: request
