@@ -1,0 +1,85 @@
+.alineaTable {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+.alineaTable .MuiTable-root {
+    border: 0;
+}
+.alineaTable .MuiTable-root .MuiTableHead-root {
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    border-color: #f4eddc;
+}
+.alineaTable .MuiTable-root .MuiTableHead-root .MuiTableCell-root {
+    color: #805537;
+    text-transform: uppercase;
+}
+.alineaTable .MuiTable-root .MuiTableCell-root a {
+    color: #4885fe;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.alineaTable .MuiTableCell-root {
+    border-bottom: 3px solid #f4eddc;
+}
+.alineaTable .MuiTableRow-root:last-child .MuiTableCell-root {
+    border-bottom: 0 !important;
+}
+.alineaTable tbody.MuiTableBody-root {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid #f4eddc;
+}
+.statusBtn {
+    display: inline-block;
+    min-width: 150px;
+    padding: 3px 7px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.closeBtn {
+    background-color: #caeff2;
+    color: #4988a6;
+}
+.approveBtn {
+    background-color: #d0f2ca;
+    color: #399d7d;
+}
+.submitBtn {
+    background-color: #f2f2ca;
+    color: #a58646;
+}
+.returnBtn {
+    background-color: #fce1d7;
+    color: #9a5734;
+}
+.discloseBtn {
+    background-color: #ffe7ae;
+    color: #b5871b;
+}
+.hIcon {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    cursor: pointer;
+}
+.hIcon span {
+    margin-top: 4px;
+    margin-left: 3px;
+}
+.hIcon:hover::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.08);
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    left: -10px;
+}
+  

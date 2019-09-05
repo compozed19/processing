@@ -1,0 +1,134 @@
+.headerBar {
+    height: 60px;
+    width: 100%;
+    display: block;
+}
+.headerBar header {
+    background-color: #feffed;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #608c1a;
+    width: 100%;
+    height: 60px;
+    padding: 4px 0;
+}
+.logoBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pro-text {
+    color: #608c1a;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    letter-spacing: 0.8px;
+}
+.pro-text::before {
+    content: "";
+    background-color: #dddfb9;
+    width: 1px;
+    height: 26px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+  .notifyIcon {
+    color: rgba(0, 0, 0, 0.6);
+}
+.userBadge button {
+    background-color: #608c1a;
+    border-radius: 50%;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    padding: 0;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    font: Medium 12px/14px Roboto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.userBadge button:hover {
+    background-color: #608c1a;
+    opacity: 0.9;
+}
+  
+  /* sidenav bar */
+.MuiPaper-root.MuiDrawer-paper {
+    background: rgb(97, 140, 26);
+    background: linear-gradient(180deg, rgba(97, 140, 26, 1) 0%, rgba(74, 85, 35, 1) 100%);
+    overflow: hidden;
+}
+.MuiPaper-root.MuiDrawer-paper::before {
+    content: "";
+    position: fixed;
+    top: 50px;
+    left: -80px;
+    width: 280px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50px 0 0 50px;
+    transform: rotate(140deg);
+}
+.MuiPaper-root.MuiDrawer-paper::after {
+    content: "";
+    position: absolute;
+    right: -100px;
+    bottom: 150px;
+    width: 300px;
+    height: 190px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0 100px 100px 0;
+    transform: rotate(-140deg);
+}
+.sideNav::after {
+    content: "";
+    position: fixed;
+    left: -100px;
+    bottom: -100px;
+    width: 300px;
+    height: 190px;
+    background: rgba(255, 255, 255, 0.05);
+    transform: rotate(-140deg);
+}
+.sideNav {
+    width: 250px;
+}
+.sideNav .sidenavInner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+.sideNav .sidenavInner .MuiList-root {
+    width: 100%;
+}
+.listItems .MuiListItemText-root,
+.listItems .MuiListItemIcon-root {
+    color: rgba(255, 255, 255, 0.9);
+}
+.listItems .MuiListItemText-root .MuiTypography-root {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.sidenav-arrowBack {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footerText {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.66rem;
+    padding: 0 10px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+  

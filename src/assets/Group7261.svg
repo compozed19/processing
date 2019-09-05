@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.771" height="26.605" viewBox="0 0 83.771 26.605">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#269edd"/>
+      <stop offset="0.113" stop-color="#309ab9"/>
+      <stop offset="0.385" stop-color="#489467"/>
+      <stop offset="0.578" stop-color="#588f33"/>
+      <stop offset="0.672" stop-color="#5e8e20"/>
+      <stop offset="1" stop-color="#608d1a"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7261" data-name="Group 7261" transform="translate(-571.14 14.339)">
+    <g id="Logo" transform="translate(571.14 -14.339)">
+      <path id="Path_9858" data-name="Path 9858" d="M1307.314,294.75l-8.136-17.444,2.8-6.8,11.544,24.265" transform="translate(-1282.496 -268.185)" fill="url(#linear-gradient)"/>
+      <path id="Path_9859" data-name="Path 9859" d="M1145,248.415l-.965-2.031H1137.7l-12.06,26.529h9.172" transform="translate(-1125.637 -246.384)" fill="#608d1a"/>
+      <path id="Path_9860" data-name="Path 9860" d="M1269.681,408.3h-7.236l.773-1.89h5.59Z" transform="translate(-1249.294 -391.026)" fill="#608d1a"/>
+      <path id="Path_10264" data-name="Path 10264" d="M1315.954,408.01l-53.781.025v-1.565l52.472-.061Z" transform="translate(-1232.183 -381.431)" fill="#269ddc"/>
+      <text id="linea" transform="translate(30.11 19)" fill="#003e7e" font-size="21" font-family="TeluguMN-Bold, Telugu MN" font-weight="700"><tspan x="0" y="0">linea</tspan></text>
+    </g>
+  </g>
+</svg>
